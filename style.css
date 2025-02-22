@@ -1,5 +1,71 @@
+/* General Styles */
 body {
-  width: 100%;
-  height: 100%;
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  text-align: center; /* Center all text by default */
 }
+
+/* Header */
+header {
+  text-align: center; /* Centers the header content */
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center; /* Centers navigation links */
+  gap: 10px;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey; /* Background color for nav links */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #666; /* Darker grey on hover */
+}
+
+/* Featured Property */
+#featured-property {
+  text-align: center;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto; /* Centers the image */
+  width: 900px;
+}
+
+#featured-property figcaption {
+  font-size: 12px; /* Shrinks the caption font */
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Text Block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto; /* Centers text block and adds spacing */
+  text-align: center;
+}
+
+/* Details Section (Footer) */
+#details {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+#details div {
+  float: left;
+  width: 25%; /* Each div takes up 25% of the footer */
+  text-align: center;
+  background-color: #ddd; /* Matches the foote
